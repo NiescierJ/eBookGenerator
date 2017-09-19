@@ -1,0 +1,14 @@
+BODY
+{
+}
+
+tr.headerRow
+{
+	background-color: #c0c0c0;
+	font-weight: bold;
+}
+
+tr.altRow
+{
+	background-color: #e0e0e0;	
+}

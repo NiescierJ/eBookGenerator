@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+  <head>
+    <title>Alliance Laundry Systems</title>
+    
+    <script type="text/javascript">
+      
+      function findModels() 
+      {
+        var modelNo = document.getElementById("txtModelNo").value;
+        window.location.assign("Models.htm?Model=" + modelNo.toUpperCase());
+      }
+      
+      function whichButton(event)
+      {
+        if (event.keyCode == 13)
+        {
+          findModels();
+        }
+      }
+
+    </script>
+  </head>
+  <body onkeyup="whichButton(event)">
+
+    <table cellspacing="0" cellpadding="0" border="0" width="1000px">
+      <tr>
+        <td style="width:10px;">
+          &nbsp;
+        </td>
+        <td style="width:490px;">
+          <img src='{imagename}' alt='' width='250px' />
+        </td>
+        <td style="width:500px; font-family:Arial; font-size:24pt; font-weight:bold; color:#213D7D;" align="right">
+          Literature CD
+          <br />
+          <img src="Data/logo2.png" alt="" width="180px" />
+        </td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+    
+    <table cellspacing="0" cellpadding="0" border="0" width="1000px">
+      <tr>
+        <td style="width:100px;">
+          &nbsp;
+        </td>
+        <td>
+          <div style="width:800px;font-family:Arial; font-size:24pt; ">
+            This CD will provide complete information for your laundry equipment.
+            <br /><br />
+          </div>
+        </td>
+        <td style="width:100px;">
+          &nbsp;
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" style="height:5px; background-color:Black; font-size:1px;">
+        </td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+    
+    <table cellspacing="0" cellpadding="0" border="0" width="1000px">
+      <tr>
+        <td style="width:100px;">
+          &nbsp;
+        </td>
+        <td>
+          <div style="width:800px;font-family:Arial; font-size:14pt; ">
+             To locate the literature for your model, type the first five digits of your model number in the box below and click the search button.
+          </div>
+        </td>
+        <td style="width:100px;">
+          &nbsp;
+        </td>
+      </tr>
+      
+      <tr>
+        <td colspan="3">
+          &nbsp;
+        </td>
+      </tr>
+
+      <tr>
+        <td style="width:100px;">
+          &nbsp;
+        </td>
+        <td>
+          <div style="width:800px;font-family:Arial; font-size:12pt; font-weight:bold;">
+            Model Number Search
+          </div>
+        </td>
+        <td style="width:100px;">
+          &nbsp;
+        </td>
+      </tr>
+      
+      <tr>
+        <td colspan="3">
+          &nbsp;
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+        </td>
+        <td>
+          <input type="text" id="txtModelNo" maxlength="5" style="font-family:Arial; font-size:14pt;" />&nbsp;&nbsp;<button style="font-family:Arial; font-size:14pt;" onclick="findModels()">Search</button>
+        </td>
+      </tr>
+       
+      <tr>
+        <td colspan="3">
+          &nbsp;
+        </td>
+      </tr>
+       
+      <tr>
+        <td colspan="3">
+          &nbsp;
+        </td>
+      </tr>
+
+      <tr>
+        <td style="width:100px;">
+          &nbsp;
+        </td>
+        <td>
+          <div style="width:800px;font-family:Arial; font-size:10pt; font-weight:bold;">
+            NOTE: Viewing PDF files requires Adobe Reader&reg; (version 5.0 or higher), which can be downloaded for free at <a href="http://www.adobe.com">www.adobe.com</a>. 
+          </div>
+        </td>
+        <td style="width:100px;">
+          &nbsp;
+        </td>
+      </tr>
+       
+      <tr>
+        <td colspan="3">
+          &nbsp;
+        </td>
+      </tr>
+
+      <tr>
+        <td style="width:100px;">
+          &nbsp;
+        </td>
+        <td>
+          <div style="width:800px;font-family:Arial; font-size:12pt; ">
+            &nbsp; 
+          </div>
+        </td>
+        <td style="width:100px;">
+          &nbsp;
+        </td>
+      </tr>
+   </table>
+    
+  </body>
+</html>

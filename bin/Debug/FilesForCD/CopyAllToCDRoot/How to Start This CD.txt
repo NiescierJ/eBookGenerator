@@ -1,0 +1,10 @@
+How to Use Ebook CD
+
+
+If the disc is already in your computer and the program does NOT automatically start:
+1. Navigate to the CD drive using “Explorer” or “My Computer”.
+2. Double-click the Search.htm file located on the CD.  
+
+NOTE: Acrobat Reader must be installed on your PC.
+NOTE: If using this CD on a Mac, the browser must be Firefox.
+
